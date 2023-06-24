@@ -13,6 +13,7 @@
 const names = require('./04-names') // This imports the module.exports data in 04-names.js
 const sayHi = require('./05-utils') 
 const data = require('./06-alternative-flavor')
+require('./07-mind-grenade') // Require without a variable name will invoke the code in the module.
 
 console.log(data);
 
