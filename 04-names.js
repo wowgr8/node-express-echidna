@@ -1,5 +1,7 @@
+// local
+const secret = 'SUPER SECRET'
+// share
 const khean = 'Khean'
 const kylah = 'kylah'
-const secret = 'SUPER SECRET'
 
-console.log(module)
+module.exports = { khean, kylah } // This shares code across the entire app.
