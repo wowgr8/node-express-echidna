@@ -6,7 +6,7 @@
 // module     - info about current module (file)
 // process    - info about env where the program is being executed
 
+// Answers for Code The Dream lesson:
 console.log(__dirname);
-setInterval(() => {
-  console.log('Hello world')
-}, 1000)
+
+// const export MY_VAR="Hi there!" 
